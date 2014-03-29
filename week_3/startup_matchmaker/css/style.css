@@ -44,24 +44,27 @@ Developer @GA in NYC
 /* Center the container */
 
 
-#header {
+header {
      background-color: #000;
      border-bottom:5px solid yellow;
+
 }
 
 header h1 {
      color: yellow;
      font-family: "Crimson Text", serif;
+     float:left;
+     height:70px;
      margin:0 auto;
-     padding-top: 10px;
+     top: 0;
      padding-left:20px;
 }
 
 header nav {
      color:#fff;
-     height: 2rem;
+     height: 12px;
 }
-#header li {
+header li {
      font-family: "Oswald", sans-serif;
      font-weight: 400;
      float: right;
@@ -70,56 +73,78 @@ a {
      text-decoration: none;
      color: #fff;
 }
+header h2 {
+     height:60px;
+     color:#fff;
+     background-color:#BEBEBE;
+     text-align: center;
+     font-family:"Crimson Text",serif;
+     font-size: 28px;
+}
 
-#main{
-     background: url ("ga/week_3/startup_matchmaker/images/coworking.jpg") center center norepeat;
-     overflow: hidden;
-     color:black;
+.banner {
+     background:url(../images/coworking.jpg) no-repeat;
+     height:425px;
+}
+.blurb {
+     font-family: verdana, arial, sans-serif;
+     width: 27%;
+     height: 280px;
+     background-color: rgba(255,255,255,.8);
      float:right;
-     width:100%;
+     margin: 20px;
+     margin-right:20px;
+     padding:5px 20px 5px 20px;
      clear:both;
 }
-
-#info p{
-     color:#000;
+.blurb h2 {
+     font-size: 20px;
 }
-
-header h2 {
+.blurb p {
+     font-size:14px;
+     margin-bottom: 20px;
+}
+.blurb .button {
+     margin:0 auto;
+     width:180px;
+     height:40px;
+     background-color: yellow;
+     font-family: "Oswald",sans-serif;
+     font-weight:700;
      text-align: center;
-     font-family: "Crimson Text", serif;
-     font-weight: 700italic;
-     font-size: 26px;
-     background-color: #D6D6D6;
-     margin:0;
-     padding:15px;
+     padding-top: 10px;
+     border-radius: 3px;
 }
 
-header h2 del {
-     color:gray;
+.banner button {
+     width:25px;
+     height:20px;
+     background-color: blue;
 }
-
-
 .info_boxes {
-    border:1px solid #000;
-    width:300px;
+     width:33%;
+     display: inline-block;
+     padding:10px;
+}
+
+.info_boxes h2 {
+     font-family: "Crimson Text", serif;
+     font-size: 26px;
+}
+.info_boxes p {
+     font-family: verdana, arial, sans-serif;
+}
+.info_boxes .button {
+     height:40px;
+     width:150px;
+     background-color:#BEBEBE;
 }
 
 footer {
-     font-family: sans-serif;
-     font-weight: bold;
-     color:#fff;
      background-color: #000;
-     padding:20px;
-     float:left;
-     clear:both;
-     margin:0 auto;
+     color:#fff;
+     padding:5px;
 }
-
-.button {
-     background-color:#D6D6D6;
-     margin-left: 100px;
-}
-
 /******************************************
 /* ADDITIONAL STYLES                   
 /*******************************************/
