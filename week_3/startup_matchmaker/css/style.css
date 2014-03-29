@@ -1,0 +1,129 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+
+
+#header {
+     background-color: #000;
+     border-bottom:5px solid yellow;
+}
+
+header h1 {
+     color: yellow;
+     font-family: "Crimson Text", serif;
+     margin:0 auto;
+     padding-top: 10px;
+     padding-left:20px;
+}
+
+header nav {
+     color:#fff;
+     height: 2rem;
+}
+#header li {
+     font-family: "Oswald", sans-serif;
+     font-weight: 400;
+     float: right;
+}
+a {
+     text-decoration: none;
+     color: #fff;
+}
+
+#main{
+     background: url ("ga/week_3/startup_matchmaker/images/coworking.jpg") center center norepeat;
+     overflow: hidden;
+     color:black;
+     float:right;
+     width:100%;
+     clear:both;
+}
+
+#info p{
+     color:#000;
+}
+
+header h2 {
+     text-align: center;
+     font-family: "Crimson Text", serif;
+     font-weight: 700italic;
+     font-size: 26px;
+     background-color: #D6D6D6;
+     margin:0;
+     padding:15px;
+}
+
+header h2 del {
+     color:gray;
+}
+
+
+.info_boxes {
+    border:1px solid #000;
+    width:300px;
+}
+
+footer {
+     font-family: sans-serif;
+     font-weight: bold;
+     color:#fff;
+     background-color: #000;
+     padding:20px;
+     float:left;
+     clear:both;
+     margin:0 auto;
+}
+
+.button {
+     background-color:#D6D6D6;
+     margin-left: 100px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+
