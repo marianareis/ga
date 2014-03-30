@@ -1,4 +1,4 @@
-/* 
+/*
 Project Name: Blank Template
 Client: Your Client
 Author: Your Name
@@ -7,7 +7,7 @@ Developer @GA in NYC
 
 
 /******************************************
-/* SETUP                   
+/* SETUP
 /*******************************************/
 
 /* Box Model Hack */
@@ -32,13 +32,13 @@ Developer @GA in NYC
 }
 
 /******************************************
-/* BASE STYLES                   
+/* BASE STYLES
 /*******************************************/
 
 
 
 /******************************************
-/* LAYOUT                   
+/* LAYOUT
 /*******************************************/
 
 /* Center the container */
@@ -97,11 +97,13 @@ a {
      background:url(../images/coworking.jpg) no-repeat;
      height:425px;
      width:100%;
+     background-size: cover;
+     background-position: center;
 }
 .blurb {
      font-family: verdana, arial, sans-serif;
-     width: 27%;
-     height: 280px;
+     width: 250px;
+     height: 270px;
      background-color: rgba(255,255,255,.8);
      float:right;
      margin: 20px;
@@ -128,23 +130,31 @@ a {
      border-radius: 3px;
      box-shadow: 5px 5px 5px #888888;
 }
+.info {
+     padding: 20px 0;
+}
 
 .info_boxes {
      width:33%;
-     display: inline-block;
-     padding:10px;
-     margin-bottom: 30px;
+     display: block;
+     float: left;
+     padding: 20px;
+     border-right: 1px solid #CCC;
+}
+.info_boxes:last-child {
+     border-right:0;
 }
 
 .info_boxes h2 {
      font-family: "Crimson Text", serif;
      font-size: 26px;
+     margin: 0;
 }
 .info_boxes p {
      font-family: verdana, arial, sans-serif;
      font-size: 14px;
      padding-bottom: 20px;
-     padding-right:30px;
+     padding-right: 30px;
 }
 .info_boxes .button {
      height:40px;
@@ -166,7 +176,7 @@ footer p {
      margin-left:20px;
 }
 /******************************************
-/* ADDITIONAL STYLES                   
+/* ADDITIONAL STYLES
 /*******************************************/
 
 
